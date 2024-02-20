@@ -1,0 +1,26 @@
+.head {
+    text-align: center;
+    color: #f38c73;
+    font-size: 100px;
+    border-bottom: 1px solid black;
+  }
+  .head2 {
+    text-align: center;
+    color: #f38c73;
+    font-size: 50px;
+  }
+  
+  .introText {
+    color: #f38c73;
+    font-size: 8px;
+
+  }
+
+
+  .test {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+  }
