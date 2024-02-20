@@ -2,6 +2,7 @@ import React from "react";
 import "./Content.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import aLinnSi1 from '../assets/a linn si 1.png'
 
 const images = [
   "https://images.pexels.com/photos/1366630/pexels-photo-1366630.jpeg",
@@ -27,13 +28,16 @@ const Content = () => {
         <h2 className="head2">AR FILTERS</h2>
         <div className="buttonContainer">
           <button className="button">
-            <img src="https://images.pexels.com/photos/1366630/pexels-photo-1366630.jpeg" className="arImage"/>
+            <img src={aLinnSi1} className="arImage"/>
+            <div style={{ color: '#f38c73' }}>A LNN SI 1</div>
           </button>
           <button  className="button">
-            <img src="https://images.pexels.com/photos/1366630/pexels-photo-1366630.jpeg"className="arImage"/>
+            <img src={aLinnSi1}className="arImage"/>
+            <div style={{ color: '#f38c73' }}>A LNN SI 1</div>
           </button>
           <button  className="button">
-            <img src="https://images.pexels.com/photos/1366630/pexels-photo-1366630.jpeg" className="arImage"/>
+            <img src={aLinnSi1}className="arImage"/>
+            <div style={{ color: '#f38c73' }}>A LNN SI 1</div>
           </button>
           <hr/>
           <h2 className="head2">KEEP IN<br></br> TOUCH</h2>
