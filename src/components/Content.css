@@ -40,6 +40,10 @@
     font-size: 15px;
 
   }
+  .arTitle {
+    font-size: 20px;
+    
+  }
 
   .introTextContainer {
     padding-top: 20px;
@@ -65,6 +69,7 @@
 
 .buttonContainer{
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .button{
@@ -87,7 +92,6 @@
 }
 
 hr {
-
   border-color: #f38c73;
   height: 1px; /* Adjust the thickness of the line */
   width: 50%; /* Adjust the width as per your requirement */
@@ -112,4 +116,8 @@ hr {
 
 .right-content {
   margin-right: 200px; /* Adjust right margin as needed */
+}
+
+.bottom{
+  text-align: center;
 }
