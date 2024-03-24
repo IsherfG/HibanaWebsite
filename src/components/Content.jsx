@@ -27,6 +27,7 @@ const Content = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
+    arrows: false,
     prevArrow: null, // Remove the previous arrow navigation control
     nextArrow: null, // Remove the next arrow navigation control
   };
@@ -40,7 +41,7 @@ const Content = () => {
             HIBANA IS A HOME WHERE INNOVATIVE IDEAS COME TO LIFE.
             <br /> DEDICATED TO SEEK BEAUTY IN THE MUNDANE, WE ELEVATE
             <br /> EVERYDAY ITEMS BY INCORPORATING TECHNOLOGY, CREATIVITY
-            <br /> AND SUSTAINABILITY
+             AND SUSTAINABILITY
           </p1>
         </div>
         <img className="Logo" src={Logo} />
