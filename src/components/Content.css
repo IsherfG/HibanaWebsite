@@ -1,10 +1,10 @@
 .p1::before {
-  content: "•"; /* Unicode character for a bullet point */
-  color: #f38c73; /* Change the color as needed */
-  font-size: 20px; /* Adjust the size as needed */
-  vertical-align: middle; /* Aligns the dot vertically with the text */
-  margin-right: 10px; /* Adds some space between the dot and the text */
-  display: inline-block; /* Ensures the dot is inline with text */
+  content: "•";
+  color: #f38c73;
+  font-size: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
 }
 
 .head {
@@ -14,65 +14,71 @@
   border-bottom: 1px solid black;
 }
 
-  .Logo{
-    width: 50%;
-    height: 100%; /* You can adjust this height as needed */
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center; /* To center the image horizontally */
-    align-items: center; /* To center the image vertically */
-    padding-bottom: 20px;
-  }
-  .head2 {
-    text-align: center;
-    color: #f38c73;
-    font-size: 800%;
-  }
-  .head3 {
-    text-align: center;
-    color: #f38c73;
-    font-size: 500%;
-  }
-  
-  .introText {
-    color: #f38c73;
-    font-size: 15px;
-
-  }
-  .arTitle {
-    font-size: 20px;
-    
-  }
-
-  .introTextContainer {
-    padding-top: 20px;
-    padding-left: 10%;
-    padding-bottom: 70px;
-  }
-
-
-  .Slide {
-    padding-top: 40px;
-    width: 60%;
-    height: 100%; /* You can adjust this height as needed */
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center; /* To center the image horizontally */
-    align-items: center; /* To center the image vertically */
+.Logo {
+  width: 50%;
+  height: auto; /* Adjusted for responsiveness */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
 }
 
-.arImage{
+.head2 {
+  text-align: center;
+  color: #f38c73;
+  font-size: 800%;
+}
+
+.head3 {
+  text-align: center;
+  color: #f38c73;
+  font-size: 500%;
+}
+
+.introText {
+  color: #f38c73;
+  font-size: 15px;
+}
+
+.arTitle {
+  font-size: 20px;
+}
+
+.introTextContainer {
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-bottom: 70px;
+}
+
+.imageSlider{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Slide {
+  padding-top: 40px;
+  width: 60%;
+  height: auto; /* Adjusted for responsiveness */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arImage {
   width: 100%;
 }
 
-.buttonContainer{
+.buttonContainer {
   text-align: center;
   padding-bottom: 20px;
 }
 
-.button{
+.button {
   padding-top: 20px;
   width: 35%;
   background-color: transparent;
@@ -93,31 +99,78 @@
 
 hr {
   border-color: #f38c73;
-  height: 1px; /* Adjust the thickness of the line */
-  width: 50%; /* Adjust the width as per your requirement */
-  background-color: #f38c73; /* Set the color of the line */
-  margin: 0 auto; /* This centers the line horizontally */
+  height: 1px;
+  width: 50%;
+  background-color: #f38c73;
+  margin: 0 auto;
 }
-
 
 .footer {
   width: 100%;
-  background-color: #f38c73; /* Your desired background color */
-  color: #2C4433; /* Your desired text color */
-  padding: 10px 0; /* Adjust padding as needed */
+  background-color: #f38c73;
+  color: #2C4433;
+  padding: 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .left-content {
-  margin-left: 200px; /* Adjust left margin as needed */
+  margin-left: 20px; /* Adjusted for responsiveness */
 }
 
 .right-content {
-  margin-right: 200px; /* Adjust right margin as needed */
+  margin-right: 20px; /* Adjusted for responsiveness */
 }
 
-.bottom{
+.bottom {
   text-align: center;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media only screen and (max-width: 600px) {
+  .introText {
+    font-size: 10px; /* Adjust the font size for mobile devices */
+  }
+  .head {
+    font-size: 60px;
+  }
+
+  .head2 {
+    font-size: 400%;
+  }
+
+  .head3 {
+    font-size: 300%;
+  }
+
+  .introText {
+    font-size: 12px;
+  }
+
+  .arTitle {
+    font-size: 16px;
+  }
+
+  .Logo {
+    width: 80%;
+  }
+
+  .Slide {
+    width: 80%;
+  }
+
+  .button {
+    width: 50%;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left-content,
+  .right-content {
+    margin: 0;
+  }
 }

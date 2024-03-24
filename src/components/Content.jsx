@@ -20,13 +20,15 @@ const images = [
 
 const Content = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true, // Enable autoplay
-    autoplaySpeed: 5000, // Set autoplay speed in milliseconds
+    autoplay: true,
+    autoplaySpeed: 5000,
+    prevArrow: null, // Remove the previous arrow navigation control
+    nextArrow: null, // Remove the next arrow navigation control
   };
   
 
