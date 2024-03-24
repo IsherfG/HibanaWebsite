@@ -3,6 +3,13 @@ import "./Content.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import aLinnSi1 from '../assets/a linn si 1.png'
+import aLinnSi2 from '../assets/a linn si 2.png'
+import twofive from '../assets/25.png'
+import Slide from '../assets/Slide.png'
+import Logo from '../assets/logo.svg'
+import contactBtn from '../assets/btn-contact.svg'
+import facebook from '../assets/facebook.svg'
+import instagram from '../assets/instagram.svg'
 
 const images = [
   "https://images.pexels.com/photos/1366630/pexels-photo-1366630.jpeg",
@@ -16,14 +23,15 @@ const Content = () => {
       <div>
         <div className="introTextContainer">
           <p1 className="introText">
-            Hibana is a home where innovative ideas come to life. Dedicated to
-            seek beauty in the mundane, we elevate everyday items by
-            incorporating technology, creativity
+          HIBANA IS A HOME WHERE INNOVATIVE IDEAS COME TO LIFE.<br/> DEDICATED TO
+  SEEK BEAUTY IN THE MUNDANE, WE ELEVATE<br/> EVERYDAY ITEMS BY
+  INCORPORATING TECHNOLOGY, CREATIVITY<br/> AND SUSTAINABILITY
           </p1>
         </div>
-        <h1 className="head">HIBANA</h1>
+        <img className="Logo" src={Logo}/>
+        <hr/>
         <div className="imageSlider">
-          <img className ="test" src="https://images.pexels.com/photos/1366630/pexels-photo-1366630.jpeg" />
+          <img className ="Slide" src={Slide} />
         </div>
         <h2 className="head2">AR FILTERS</h2>
         <div className="buttonContainer">
@@ -32,15 +40,32 @@ const Content = () => {
             <div style={{ color: '#f38c73' }}>A LNN SI 1</div>
           </button>
           <button  className="button">
-            <img src={aLinnSi1}className="arImage"/>
+            <img src={aLinnSi2}className="arImage"/>
             <div style={{ color: '#f38c73' }}>A LNN SI 1</div>
           </button>
           <button  className="button">
-            <img src={aLinnSi1}className="arImage"/>
+            <img src={twofive}className="arImage"/>
             <div style={{ color: '#f38c73' }}>A LNN SI 1</div>
           </button>
+          <button  className="button">
+            <img src=""className="arImage"/>
+            
+          </button>
           <hr/>
-          <h2 className="head2">KEEP IN<br></br> TOUCH</h2>
+          <h2 className="head3">KEEP IN<br></br> TOUCH</h2>
+          <img src={contactBtn} className="contactBtn"/>
+          <div>
+            <img className="social" src={facebook}/>
+            <img className="social" src={instagram}/>
+          </div>
+          <footer class="footer">
+  <div class="left-content">
+    © All Rights Reserved
+  </div>
+  <div class="right-content">
+    2024
+  </div>
+</footer>
         </div>
       </div>
     </div>
