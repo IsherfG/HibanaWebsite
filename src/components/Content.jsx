@@ -84,7 +84,9 @@ const Content = () => {
           <h2 className="head3">
             KEEP IN<br></br> TOUCH
           </h2>
+          <button className="buttonForContact">
           <img src={contactBtn} className="contactBtn" />
+          </button>
           <div>
             <img className="social" src={facebook} />
             <img className="social" src={instagram} />
